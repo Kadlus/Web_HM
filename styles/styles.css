@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.new-collection {
+    position: relative;
+    width: 70%;
+    margin: 150px auto 0 auto;
+}
+
+.left-side-collection {
+    position: relative;
+}
+
+.left-side-collection h1 {
+    position: absolute;
+    top: 0;
+    margin-left: 32px;
+}
+
+.left-side-collection h2 {
+    position: absolute;
+    top: 60px;
+    margin-left: 32px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.hm-logo {
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    /* pokud použijeme absolutní pozici, tak můžeme elementy používat ve vrstvách */
+    /* záporná hodnota z-index posune obrázek dozadu a kladná dopředu */
+    z-index: 1;
+}
+
+.right-side-collection {
+    position: absolute;
+    top: 0;
+    left: 55%;
+}
+
+
+.love-fashion {
+    display: flex;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+    height: 700px;
+}
+
+.left-side-fashion {
+    width: 50%;
+    position: relative;
+}
+
+.hm-jacket {
+    position: absolute;
+    left: 30%;
+    bottom: 20%;
+    max-width: 100%;
+    height: auto;
+}
+
+.hm-woman-in-jacket {
+    position: absolute;
+    left: 80%;
+    bottom: 10%;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.right-side-fashion {
+    width: 50%;
+    background: #b89f5d;
+    position: relative;
+}
+
+.text-fashion {
+    width: 50%;
+    text-align: right;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    line-height: 1.5;
+}
+
+.primary-heading {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 14px auto 14px auto;
+}
+
+.secondary-heading {
+    font-size: 48px;
+    font-weight: normal;
+    margin: 14px auto 14px auto;
+    text-transform: uppercase;
+}
+
+.primary-text {
+    font-size: 18px;
+    margin-bottom: 64px;
+    line-height: 1.5;
+}
+
+.btn {
+    background: #5a7670;
+    color: white;
+    padding: 12px 32px 12px 32px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.voices-of-valentine {
+    display: flex;
+    height: 600px;
+}
+
+.text-valentine {
+    position: absolute;
+    left: 30%;
+    bottom: 80%;
+}
+
+.left-side-voices-of-valentine {
+    position: relative;
+    width: 50%;
+}
+
+.right-side-voices-of-valentine {
+    position: relative;
+    width: 50%;
+}
+
+.btn-collection {
+    position: absolute;
+    left: 45%;
+}
+
+.hm-sweatshirt {
+    position: absolute;
+    left: 0;
+    top: 250px;
+    max-width: 100%;
+    height: auto;
+    z-index: 10;
+}
+
+.casual-skirt {
+    position: absolute;
+    top: -200px;
+    left: 37%;
+}
+
+.divided {
+    width: 400px;
+    height: 300px;
+    background: #b89f5d;
+    padding: 40px 18px 40px 18px;
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 80%;
+}
+
+.unisex-design {
+    display: flex;
+    position: relative;
+}
+
+.left-side-unisex {
+    width: 50%;
+    background: #cd0118;
+    color: white;
+    height: 800px;
+}
+
+.text-unisex {
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.right-side-unisex {
+    width: 50%;
+}
+
+.hm-glassess {
+    position: absolute;
+    left: 53%;
+    bottom: -25px;
+}
+
+.inside-hm {
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.left-side-hm {
+    position: absolute;
+    top: -50px;
+}
+
+.belt-section {
+    margin-top: 50px;
+    display: flex;
+    width: 60%;
+}
+
+.belt-section img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.belt-section p {
+    padding: 16px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.right-side-hm {
+    position: relative;
+    left: 60%;
+    bottom: -100px;
+    width: 50%;
+}
+
+
+.accessorise {
+    background: #b89f5d;
+    width: 400px;
+    height: 300px;
+    padding: 100px 14px 0 14px;
+    color: white;
+}
+
+.unidays-is-here {
+    display: flex;
+    height: 600px;
+    margin: 175px auto;
+    position: relative;
+}
+
+.left-side-unidays {
+    width: 50%;
+    position: relative;
+}
+
+.hm-coat {
+    left: 50%;
+    top: -100px;
+    position: absolute;
+}
+
+.hm-hand-bag {
+    top: 60%;
+    left: 30%;
+    position: absolute;
+    z-index: -1;
+}
+
+.right-side-unidays {
+    background: #cd0118;
+    width: 50%;
+    position: relative;
+}
+
+.unidays-text {
+    color: white;
+    width: 50%;
+    padding: 14px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    text-align: right;
+}
+
+.unidays-text button {
+    background: #b89f5d;
+}
+
+.unidays-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 40px 0 40px 0;
+}
+
+footer {
+    background: #333333;
+    text-align: center;
+    padding: 32px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
